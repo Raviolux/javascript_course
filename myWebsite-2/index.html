@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Il mio sito 2</title>
+
+  <!-- I link alle icone non vanno! -->
+  <!-- <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico"> -->
+
+  <!-- questo in formato PNG funziona -->
+  <link rel="icon" href="favicon.png" type="image/png">
+
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>Questo e' un grosso titolo</h1>
+    </div>
+    <div id="content">
+      <div id="nav-left">
+        <ol>
+          <li><a href="">Li</a></li>
+          <li><a href="">La</a></li>
+          <li><a href="">Qui</a></li>
+          <li><a href="">Qua</a></li>
+        </ol>
+      </div>
+      <div id="main-page">
+        <h2>Questo e' un titolo</h2>
+        <p>Questo e' un paragrafo</p>
+        <p>Questo e' un altro paragrafo</p>
+      </div>
+      <div id="nav-right">
+        <ul>
+            <li>Questo</li>
+            <li>Quello</li>
+            <li>Qualcosa</li>
+            <li>Qualcos'altro</li>
+        </ul>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="foot-big">Grosso <br> asdadad <br> fsdfsfsfsdfsd <br> sadasd <br> dfdfdf</div>
+      <div id="foot-small">Piccolo <br> sdfsdfsdf</div>
+    </div>
+    <div id="double">
+      <div id="col-left">hghxvghxvghgxhvhvgh <br> sdgsgsdg
+      </div>
+      <div id="col-right">
+        <article>
+          Stacking context example 3
+          This last example shows problems that arise when mixing several positioned elements in a multi-level HTML hierarchy and when z-indexes are assigned using class selectors.
+          Let's take as an example a three-level hierarchical menu made from several positioned DIVs. Second-level and third-level DIVs appear when hovering or clicking on their parents. Usually this kind of menu is script-generated <strong>either</strong> client-side or server-side, so style rules are assigned with a class selector instead of the id selector.
+          If the three menu levels partially overlap, then managing stacking could become a problem.
+        </article>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+

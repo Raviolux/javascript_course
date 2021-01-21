@@ -1,0 +1,167 @@
+#header {
+    background-color: #dd2121;
+    color: rgb(248, 234, 186);
+    text-align: center;
+    cursor: pointer;
+}
+
+body {
+    background-color: #eeeeee;
+    margin: 0;
+    font-family: 'Liberation Serif', Helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: #dd2121;
+}
+
+h1 {
+    margin: 0px;
+}
+
+#iron-warriors {
+    width: 600px;
+}
+
+#container {
+    background-color: black;
+    color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+#nav h3 {
+    padding: 5px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#main {
+    width: 600px;
+    float: right;
+}
+
+#footer {
+    background-color: rgb(90, 89, 87);
+    clear: both;
+    padding: 5px;
+    text-align: right;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+/* modal */
+
+.modal-container {
+    width: 120px;
+    margin: auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); 
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #dd2121;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close-modal {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color:white;
+    text-decoration: none;
+    /* cursor: pointer; */
+}
+
+
+/* Navbar top */
+#navbar {
+    width: 800px;
+    height: 20px;
+    
+}
+
+#navbar-content {
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar-content a {
+    float:left;
+    padding: 3px 7px;
+    color: black;
+    /* display: inline-block; */
+    height: 100%;
+    width: 100px;
+    overflow: hidden;
+}
+
+#navbar-content a.active {
+    color: white;
+}
+
+#navbar-content a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+
+/*=============================================*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+

@@ -1,0 +1,101 @@
+#container {
+    width: 600px;
+    height: 1000px;
+}
+
+#header {
+    height: 10%;
+    text-align: center;
+    border-width: 10px; 
+    /* perche il border non va????? */
+}
+
+#content {
+  /* display: block; */
+    height: 250px;
+    background-color: lavender;
+}
+
+#nav-left {
+    /* float: left; */
+    width: 19%;
+    display: inline-block;
+    height: 200px;
+    background-color: hotpink;
+    /* margin-top: 0; */
+}
+
+#main-page {
+    /* float: left; */
+    width: 59%;
+    text-align: center;
+    background-color: darkblue;
+    color: wheat;
+    /* position: fixed; */
+    /* position: relative; */
+    top: 0;
+    /* padding: 0px 30px; */
+    display: inline-block;
+    /* top: 10px; */
+}
+
+#nav-right {
+    float: right;
+    width: 20%;
+    height: 200px;
+    /* display: inline-block; */
+    background-color: greenyellow;
+    overflow: scroll;
+}
+
+#footer {
+    /* display: inline-block; */
+    width: 600px;
+    height: 20%;
+    background-color: red;
+}
+
+#foot-big {
+    /* float: left; */
+    display: inline-block;
+    /* margin: 20px; */
+    height: 50px;
+    width: 200px;
+    background-color: lightgreen;
+}
+
+#foot-small {
+    /* float: left; */
+    display: inline-block;
+    /* padding: 20px; */
+    height: 50px;
+    width: 200px;
+    background-color: lightgrey;
+}
+
+#col-left {
+  /* float: left; */
+  display: inline-block;
+  background-color: olivedrab;
+  width: 100px;
+  height: 500px;
+}
+
+#col-right {
+  margin: 0 10px;
+  /* float: left; */
+  display: inline-block;
+  background-color: grey;
+  width: 400px;
+  /* height: 500px; */
+  /* z-index: 1; */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+

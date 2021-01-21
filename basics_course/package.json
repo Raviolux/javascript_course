@@ -1,0 +1,26 @@
+{
+  "name": "javascript_course",
+  "version": "1.0.0",
+  "description": "javascript basic projects from udemy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raviolux/javascript_basics.git"
+  },
+  "keywords": [
+    "javascript",
+    "js"
+  ],
+  "author": "Jord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raviolux/javascript_basics/issues"
+  },
+  "homepage": "https://github.com/Raviolux/javascript_basics#readme",
+  "devDependencies": {
+    "eslint": "^7.3.0"
+  }
+}
